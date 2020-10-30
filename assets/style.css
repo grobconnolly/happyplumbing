@@ -47,8 +47,156 @@ body, html {
     padding-top: 7%;
 }
 
+.sectionItems{
+    padding-bottom: 4%;
+    font-size: 20px;
+}
+
 .footer{
     margin-top: 1%;
     padding-top: 3%;
     background-color: gray;
+    color: white;
 }
+.address{
+    font-size: 9px;
+}
+
+
+/* Service Request */
+
+.serviceBackground{
+
+    padding-top: 3%;
+}
+
+@media only screen and (max-width: 738px) {
+    .happyLogo{
+        width: 40%;
+    }
+
+    .backgroundHero{
+        background-image: url(./images/hero-2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 70%;
+    }
+    }
+
+@media only screen and (max-width: 414px) {
+    .backgroundHero{
+        background-image: url(./images/hero-2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 45%;
+    }
+    .heroHead{
+        font-size: 30px;
+    }
+    .heroSub{
+        font-size: 20px;
+    }
+    .heroSubNumber{
+        font-size: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 1024px) {
+    .backgroundHero{
+        background-image: url(./images/hero-2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40%;
+    }
+    .heroHead{
+        font-size: 30px;
+    }
+    .heroSub{
+        font-size: 20px;
+    }
+    .heroSubNumber{
+        font-size: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 360px) {
+    .backgroundHero{
+        background-image: url(./images/hero-2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 50%;
+    }
+    .heroHead{
+        font-size: 30px;
+    }
+    .heroSub{
+        font-size: 20px;
+    }
+    .heroSubNumber{
+        font-size: 20px;
+    }
+  }
+
+
+
+  @media only screen and (max-width: 320px) {
+    .backgroundHero{
+        background-image: url(./images/hero-2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 60%;
+    }
+    .heroHead{
+        font-size: 30px;
+    }
+    .heroSub{
+        font-size: 20px;
+    }
+    .heroSubNumber{
+        font-size: 20px;
+    }
+  }
+
+
+  @media only screen and (max-width: 375px) {
+    .backgroundHero{
+        background-image: url(./images/hero-2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 40%;
+    }
+    .heroHead{
+        font-size: 30px;
+    }
+    .heroSub{
+        font-size: 20px;
+    }
+    .heroSubNumber{
+        font-size: 20px;
+    }
+  }
+
+  @media only screen and (max-width: 280px) {
+    .backgroundHero{
+        background-image: url(./images/hero-2.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 60%;
+    }
+    .heroHead{
+        font-size: 30px;
+    }
+    .heroSub{
+        font-size: 20px;
+    }
+    .heroSubNumber{
+        font-size: 20px;
+    }
+  }

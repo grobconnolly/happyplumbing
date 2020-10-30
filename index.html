@@ -25,8 +25,8 @@
     <!-- Navbar-->
     <nav class="navbar navbar-expand-lg navbar-light bg-light static-top">
         <div class="container">
-            <a class="navbar-brand" href="#">
-                <img src="./assets/images/New-HappyPlumbingLOGO.png" alt="">
+            <a class="navbar-brand" href="./index.html">
+                <img class="happyLogo" src="./assets/images/New-HappyPlumbingLOGO.png" alt="">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,10 +40,10 @@
                         </a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Reviews</a>
+                        <a class="nav-link" href="#testimonials">Reviews</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" href="#services">Services</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Contact</a>
@@ -64,7 +64,7 @@
                 <h3 class="text-center heroSubNumber"><b>619-874-4544</b></h3>
             </div>
             <div class="col-12 heroSub text-center">
-                <button type="button" class="btn btn-primary btn-lg">Schedule An Appointment</button>
+                <a href="./servicerequest.html" type="button" class="btn btn-primary btn-lg">Schedule An Appointment</a>
                 <br>
                 <p>Emergency Service Available 24/7!</p>
             </div>
@@ -77,22 +77,26 @@
 
 
     <!-- About Us -->
-    <div class="container aboutSection">
+    <div class="container aboutSection" id="aboutUs">
         <div class="row">
-            <div class="col-8">
-                    <p class="aboutUsHead">The Plumbers You Can Count On!</p>
-                    
-                    <p>Hiring the right professionals for the job is importiant!</p>
-                    <p>Welcome to Happy Plumbing, where you will find qualified, fully licensed and insured plumbers. We offer a broad range of plumbing repairs, installation, and services in general. Finding a professional that is well qualified, and offers rates that are competitive and relevant to the specific service needed, is one of the most important concerns we encounter with our customers.</p>
-                    
-                    <p>So you can rest assured, with many years of working in the plumbing industry, our approach and interaction with our customers are built on the foundation of integrity and trust.</p>
-                    <span>
-                        Blake and Cheryl Roberts
-                    </span><br>
-                    <span>Owners</span>
+            <div class="col-sm-12 col-md-6 col-lg-8">
+                <p class="aboutUsHead">The Plumbers You Can Count On!</p>
+
+                <p>Hiring the right professionals for the job is importiant!</p>
+                <p>Welcome to Happy Plumbing, where you will find qualified, fully licensed and insured plumbers. We
+                    offer a broad range of plumbing repairs, installation, and services in general. Finding a
+                    professional that is well qualified, and offers rates that are competitive and relevant to the
+                    specific service needed, is one of the most important concerns we encounter with our customers.</p>
+
+                <p>So you can rest assured, with many years of working in the plumbing industry, our approach and
+                    interaction with our customers are built on the foundation of integrity and trust.</p>
+                <span>
+                    Blake and Cheryl Roberts
+                </span><br>
+                <span>Owners</span>
             </div>
-            <div class="col-4">
-            <img class="img-fluid" src="./assets/images/happy-plumning-family.jpg" alt="">
+            <div class="col-sm-12 col-md-6 col-lg-4">
+                <img class="img-fluid" src="./assets/images/happy-plumning-family.jpg" alt="">
             </div>
         </div>
     </div>
@@ -102,7 +106,7 @@
 
 
     <!-- Testimonials -->
-    <div class="container">
+    <div class="container" id="testimonials">
         <div class="row">
             <div class="col-12 text-center">
                 <p class='testTitle'>
@@ -120,7 +124,7 @@
 
     <!-- Services -->
 
-    <div class="container serviceSection">
+    <div class="container serviceSection" id="services">
         <div class="row">
             <div class="col-12">
                 <p class='testTitle text-center'>Services We Offer</p>
@@ -128,48 +132,62 @@
         </div>
         <div class="row">
             <div class="col-12 col-sm-4">
-               <li> Faucet Leak Detection & Repair </li>
-               <li> Toilet Repair </li>
-               <li> Water Heater Repair & Replacement </li>
+                <li class='sectionItems'> Faucet Leak Detection & Repair </li>
+                <li class='sectionItems'> Toilet Repair </li>
+                <li class='sectionItems'> Water Heater Repair & Replacement </li>
             </div>
-            <div class="col-12 col-sm-4">
-                    <li> Drain Cleaning & Repairs </li>
-                    <li> Sewer Line Repair </li>
-                    <li> Property Management Service</li>
+            <div class="col-12 col-sm-4 sectionItems">
+                    <li class='sectionItems'> Drain Cleaning & Repairs </li>
+                    <li class='sectionItems'> Sewer Line Repair </li>
+                    <li class='sectionItems'> Property Management Service</li>
             </div>
-            <div class="col-12 col-sm-4">
-                    <li> Water Filtration And Treatment </li>
-                    <li> 24hr Emergency service </li>
-                    <li>... and more!</li>
+            <div class="col-12 col-sm-4 sectionItems">
+                    <li class='sectionItems'> Water Filtration And Treatment </li>
+                    <li class='sectionItems'> 24hr Emergency service </li>
+                    <li class='sectionItems'>... and more!</li>
             </div>
-        </div></ul>
+        </div>
+        </ul>
     </div>
     <!-- Services End -->
 
     <!-- Contact -->
-<!-- test-->
+    
     <!-- Contact End-->
 
     <!-- Footer -->
     <footer>
-            <footer class="container-fluid bg-4 footer text-center">
-                <div class="row">
-                    <div class="col-4"> 
-                        <span><b>About Us:</b></span><br><span>Locally owned and operated company, offering quality plumbing services for the entire County of San Diego. We value customer service and love what we do. Call us today for a free estimate!</span>
-                    </div>
-                    <div class="col-4"> 
-                            <span>For Immediate Service Please Call:</span><br>
-                            <b><p>619-874-4544</p></b>
-                        </div>
-                        
-                            <div class="col-4"> 
-                                    <b><span>Address:</span></b><span><br>10206 El Nopal</span><br><span>Santee, CA 92071</span>
-                                </div>
+        <footer class="container-fluid bg-4 footer text-center">
+            <div class="row">
+
+                <div class="col-4">
+                    <span><b>San Diego's Premier Plumbing Company.</b></span>
                 </div>
-                    
-                  </footer>
+                <div class="col-4">
+                    <span><b>For Immediate Service:
+                        </b>
+                        <p>619-874-4544</p>
+                        
+                    </span>
+                </div>
+
+                <div class="col-4">
+                    <span><b>Our Location:<br></b>10206 El Nopal, Santee, CA 92071</span>
+                </div>
+            </div>
+
+        </footer>
     </footer>
     <!-- Footer End-->
+
+<!-- Zoho Chat-->
+<script type="text/javascript">
+    var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || 
+    {widgetcode:"9fc8f54f6cb5897ba21cadb922fa712c51eb760371b8fdb02f4a2d168705578a427d5c1c7ae89ec53c2346bb651ae231", values:{},ready:function(){}};
+    var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;
+    s.src="https://salesiq.zoho.com/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);d.write("<div id='zsiqwidget'></div>");
+    </script>
+<!-- Zoho Chat End-->
 </body>
 
 </html>
