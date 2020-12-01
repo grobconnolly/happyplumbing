@@ -13,6 +13,10 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
         integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
     </script>
+
+<script     src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js">
+</script>
+
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
         integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
     </script>
@@ -33,41 +37,17 @@
 <body>
 <script src="https://apps.elfsight.com/p/platform.js" defer></script>
 <div class="elfsight-app-068f9527-9c2c-45ea-9af3-50592a624eb5"></div>
-    <!-- Navbar-->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light static-top">
-        <div class="container">
-            <a class="navbar-brand" href="./index.html">
-                <img class="happyLogo" src="./assets/images/New-HappyPlumbingLOGO.png" alt="Happy Plumbing Logo"><br> <br>
-              
-            </a>
-
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-             <br>
-                    
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item active">
-                        <a class="nav-link" href="#">Home
-                            <span class="sr-only">(current)</span>
-                        </a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#testimonials">Reviews</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#services">Services</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact</a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-        
-    </nav>
+   
+<!-- Navbar-->
+   
+<div class="container-fluid" id="navbar">
+    
+</div>
+<script type="text/javascript">
+    $(function(){
+    $("#navbar").load("navbar.html"); 
+    });
+      </script>
 
     <!-- Navbar end -->
 
@@ -171,59 +151,17 @@
     
     <!-- Contact End-->
 
-    <!-- Footer -->
-    <div class="mt-5 pt-5 pb-5 footer">
-            <div class="container">
-              <div class="row">
-                <div class="col-lg-4 col-xs-12 about-company">
-                  <h2>You Can Count On Us!
-</h2>
-                  <p class="pr-5 text-white-50">Rest assured, with many years of working in the plumbing industry, our approach and interaction with our customers are built on the foundation of integrity and trust.</p>
-                  <p><a href="#"><i class="fa fa-facebook-square mr-1"></i></a><a href="#"><i class="fa fa-linkedin-square"></i></a></p>
-                </div>
-                <div class="col-lg-4 col-xs-12 links">
-                  <h2 class="mt-lg-0 mt-sm-3 text-center">Follow-Us On IG</h2>
-                  <script src="https://apps.elfsight.com/p/platform.js" defer></script>
-                  <div class="elfsight-app-ee59e569-8c3c-42a9-bcf6-22e63379184c"></div>
-                </div>
-                <div class="col-lg-4 col-xs-12 location">
-                  <h2 class="mt-lg-0 mt-sm-4">Location</h2><br>
-                  <span>10206 El Nopal, Santee, CA 92071</span><br>
-                  <span class="mb-0">(619) 433-4943</span>
-                  <p>info@happyplumbing.com</p>
-                </div>
-              </div>
-              <div class="row mt-5">
-                <div class="col copyright">
-                  <span class=""><small class="text-white-50">© 2020. All Rights Reserved.<br</small>
-                <br>CA Contractor License: 971548</span>
-                </div>
-              </div>
-            </div>
-            </div>
- 
- <!--    <footer>
-        <footer class="container-fluid bg-4 footer text-center">
-            <div class="row">
+   <!-- Footer -->
+   <div class="container-flex" id="footer">
+    
+</div>
+<script type="text/javascript">
+    $(function(){
+    $("#footer").load("footer.html"); 
+    });
+      </script>
 
-                <div class="col-4">
-                    <span><b>San Diego's Premier Plumbing Company.</b></span>
-                </div>
-                <div class="col-4">
-                    <span><b>For Immediate Service:
-                        </b>
-                        <p>619-433-4943</p>
-                        
-                    </span>
-                </div>
 
-                <div class="col-4">
-                    <span><b>Our Location:<br></b>10206 El Nopal, Santee, CA 92071</span>
-                </div>
-            </div>
-
-        </footer>
-    </footer> -->
     <!-- Footer End-->
 
 <!-- Zoho Chat-->
