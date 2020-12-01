@@ -7,7 +7,9 @@ body, html {
     height: 100%;
   }
 
-
+.whiteText{
+    color: white;
+}
 .backgroundHero{
     background-image: url(./images/hero-2.jpg);
     background-position: center;
