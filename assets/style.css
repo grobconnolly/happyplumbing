@@ -15,7 +15,7 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 70%;
+    height: 100%;
 }
 
 .heroHead{
@@ -110,9 +110,17 @@ body, html {
     padding-top: 3%;
 }
 
+
+
+
+
 @media only screen and (max-width: 738px) {
     .happyLogo{
-        width: 40%;
+     width: 40%;
+    }
+
+    .navbar-brand{
+        margin-right: 0px;
     }
 
     .backgroundHero{
@@ -124,7 +132,7 @@ body, html {
     }
     }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (max-width: 479px) {
     .backgroundHero{
         background-image: url(./images/hero-2.jpg);
         background-position: center;
@@ -155,7 +163,8 @@ body, html {
         background-position: center;
         background-repeat: no-repeat;
         background-size: cover;
-        height: 40%;
+        position: relative;
+       
     }
     .heroHead{
         font-size: 30px;
