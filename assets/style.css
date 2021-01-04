@@ -2,6 +2,13 @@
     -webkit-appearance: none;
 }
 
+#telLink{
+    color: white;
+}
+
+#telLink:hover{
+    color:orange;
+}
 
 body, html {
     height: 100%;
